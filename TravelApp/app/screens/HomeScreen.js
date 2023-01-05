@@ -113,6 +113,31 @@ const HomeScreen = () => {
             </TouchableOpacity>
           ))}
         </ScrollView>
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}>
+          <Text
+            style={{
+              fontSize: SPACING * 2,
+              fontWeight: 'bold',
+              color: COLORS.dark,
+            }}>
+            Feeling Adventurous?
+          </Text>
+          <TouchableOpacity>
+            <Text
+              style={{
+                fontSize: SPACING * 1.4,
+                fontWeight: '500',
+                color: COLORS.primary,
+              }}>
+              Show All
+            </Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </SafeAreaView>
   );
